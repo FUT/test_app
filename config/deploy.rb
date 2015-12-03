@@ -7,6 +7,8 @@ set :repo_url, 'git@github.com:FUT/test_app.git'
 set :rvm_type, :user                     # Defaults to: :auto
 set :rvm_ruby_version, '2.2.1'      # Defaults to: 'default'
 
+set :linked_files, %w(config/database.yml)
+
 # Defaults to 'db'
 # set :migration_role, 'migrator'
 
